@@ -21,6 +21,9 @@ html, body, ul {
   header {
     background-color: #333;
     padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   
   nav ul {
@@ -39,6 +42,36 @@ html, body, ul {
     color: #fff;
     text-decoration: none;
     padding: 10px;
+  }
+  
+  #search-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  #search-input {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  #search-input:focus {
+    outline: none;
+  }
+  
+  #search-form button {
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #search-form button:hover {
+    background-color: #666;
   }
   
   section {
